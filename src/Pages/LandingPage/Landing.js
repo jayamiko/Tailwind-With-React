@@ -1,14 +1,14 @@
 // Import Style
 import './Landing.css'
-import Logo from '../../Images/DumbGram.png';
-import Rectangle3 from '../../Images/Rectangle 3.png';
-import Rectangle4 from '../../Images/Rectangle 4.png';
-import Rectangle5 from '../../Images/Rectangle 5.png';
-import Rectangle6 from '../../Images/Rectangle 6.png';
-import Rectangle8 from '../../Images/Rectangle 8.png';
-import Rectangle9 from '../../Images/Rectangle 9.png';
-import Rectangle10 from '../../Images/Rectangle 10.png';
-import Rectangle12 from '../../Images/Rectangle 12.png';
+import Rectangle3 from '../../Images/Icons/Rectangle 3.png';
+import Rectangle4 from '../../Images/Icons/Rectangle 4.png';
+import Rectangle5 from '../../Images/Icons/Rectangle 5.png';
+import Rectangle6 from '../../Images/Icons/Rectangle 6.png';
+import Rectangle8 from '../../Images/Icons/Rectangle 8.png';
+import Rectangle9 from '../../Images/Icons/Rectangle 9.png';
+import Rectangle10 from '../../Images/Icons/Rectangle 10.png';
+import Rectangle12 from '../../Images/Icons/Rectangle 12.png';
+import { DumbgramIcon } from '../../Images';
 
 export default function Landing() {
 
@@ -21,7 +21,7 @@ export default function Landing() {
                 width: '1524px',
             }}>
                 <div className="containerLanding">
-                    <img src={Logo} alt="" />
+                    <img src={DumbgramIcon} alt="" />
 
                     <h1 className="heading">Share your best photos or videos</h1>
                     <p className="paragraf">Join now, share your creations with another
