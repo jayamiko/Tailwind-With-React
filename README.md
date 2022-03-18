@@ -12,11 +12,17 @@ cd my-project
 Install Tailwind via npm
 
 ```sh
-npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npm i -D tailwindcss
+npm i -D autoprefixer
+npm i -D postcss
 ```
 
-Note :
-PostCSS versi 8 tidak mendukung untuk create-react-app, jadi menggunakan versi 7 dari PostCSS
+Install Juga :
+
+```sh
+npm i postcss-flexbugs-fixes
+npm i postcss-preset-env
+```
 
 ## Install & Konfigurasi CRACO
 
@@ -43,7 +49,7 @@ Membuat file bernama craco.config.js dan beri script seperti ini :
 // craco.config.js
 module.exports = {
   style: {
-    postcss: {
+    postcssOptions: {
       plugins: [require("tailwindcss"), require("autoprefixer")],
     },
   },

@@ -1,8 +1,16 @@
 // CARA IMPORT LAINNYA..
 // import "tailwindcss/tailwind.css";
 
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+
 function App() {
-  return <h1 className="text-3xl font-bold text-blue-100">Hello world!</h1>;
+  return (
+    <div className="h-full bg-emerald-700">
+      <Navbar />
+      <Header />
+    </div>
+  );
 }
 
 export default App;
